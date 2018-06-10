@@ -1,0 +1,13 @@
+---
+
+platform: linux
+
+image_resource: 
+    type: docker-image
+    source: base/archlinux
+    version: latest
+
+run:
+    path: /bin/echo
+    args: ["hello world"]
+

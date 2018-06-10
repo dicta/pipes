@@ -4,8 +4,7 @@ platform: linux
 
 image_resource: 
     type: docker-image
-    source: base/archlinux
-    version: latest
+    source: {repository: base/archlinux}
 
 run:
     path: /bin/echo
